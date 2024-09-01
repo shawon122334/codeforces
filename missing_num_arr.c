@@ -13,6 +13,7 @@ int main(){
     for(i=1;i<=n;i++){
         if(arr[i]==0){
             printf("%d",i);
+            break;
         }
     }
 }
